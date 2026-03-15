@@ -19,16 +19,12 @@
 import { useState } from "react";
 
 const galleryImages = [
-  // Replace these placeholder entries with your actual photos:
-  { src: "/images/gallery/gallery-1.jpg", caption: "Drain rooter service" },
-  { src: "/images/gallery/gallery-2.jpg", caption: "Hydro-jetting in action" },
-  { src: "/images/gallery/gallery-3.jpg", caption: "Water heater installation" },
-  { src: "/images/gallery/gallery-4.jpg", caption: "Pipe repair" },
-  { src: "/images/gallery/gallery-5.jpg", caption: "Commercial plumbing" },
-  { src: "/images/gallery/gallery-6.jpg", caption: "Fixture installation" },
-  { src: "/images/gallery/gallery-7.jpg", caption: "Drain cleaning" },
-  { src: "/images/gallery/gallery-8.jpg", caption: "Emergency repair" },
-  { src: "/images/gallery/gallery-9.jpg", caption: "Sewer line work" },
+  { src: "/images/gallery/gallery-1.png", caption: "Drain work — after" },
+  { src: "/images/gallery/gallery-2.png", caption: "Drain work — before" },
+  { src: "/images/gallery/gallery-3.png", caption: "Drain work — before" },
+  { src: "/images/gallery/gallery-4.png", caption: "Pipe burst — after repair" },
+  { src: "/images/gallery/gallery-5.png", caption: "Pipe burst — before" },
+  // Add more photos: save to public/images/gallery/ as gallery-6.png, gallery-7.png, etc.
 ];
 
 function GalleryCard({ src, caption }: { src: string; caption: string }) {

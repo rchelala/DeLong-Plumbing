@@ -95,7 +95,23 @@ export default function WhyChooseUs() {
             </div>
           </div>
 
-          {/* Right: service area card */}
+          {/* Right: photo + service area */}
+          <div className="space-y-6">
+            {/* Ezra photo */}
+            <div className="relative rounded-2xl overflow-hidden">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/images/ezra.png"
+                alt="Ezra DeLong - Owner, DeLong Plumbing"
+                className="w-full object-cover rounded-2xl"
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-5">
+                <div className="text-white font-heading font-bold text-xl uppercase">Ezra DeLong</div>
+                <div className="text-white/70 text-sm">Owner & Master Plumber</div>
+              </div>
+            </div>
+
+          {/* Service area card */}
           <div className="bg-brand-gray-dark border border-white/10 rounded-2xl p-8">
             <h3 className="text-2xl font-heading font-bold text-white uppercase mb-6">
               Service Area
@@ -134,6 +150,7 @@ export default function WhyChooseUs() {
             >
               Not on the list? Call us!
             </a>
+          </div>
           </div>
         </div>
       </div>
