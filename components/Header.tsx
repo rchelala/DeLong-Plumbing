@@ -61,7 +61,7 @@ export default function Header() {
         {/* Logo */}
         <a href="#" className="flex items-center">
           <Image
-            src="/images/logo.jpg"
+            src="/images/logo.png"
             alt="DeLong Plumbing"
             width={120}
             height={60}
@@ -76,7 +76,7 @@ export default function Header() {
             <a
               key={link.href}
               href={link.href}
-              className="text-white/80 hover:text-white font-medium transition-colors text-sm uppercase tracking-wider hover:text-brand-red"
+              className="text-white/80 hover:text-brand-red font-medium transition-colors text-sm uppercase tracking-wider"
             >
               {link.label}
             </a>

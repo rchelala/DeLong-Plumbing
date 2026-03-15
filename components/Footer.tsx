@@ -32,7 +32,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <Image
-              src="/images/logo.jpg"
+              src="/images/logo.png"
               alt="DeLong Plumbing"
               width={150}
               height={75}
